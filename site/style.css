@@ -28,9 +28,6 @@ nav {
     display: flex;
     align-items: center;
     gap: 6px;
-    height: 40px;
-    width: 40px;
-  
 }
 
 .nav-links {
@@ -73,7 +70,6 @@ nav {
     gap: 6px;
     transform: background .2s, transform .15s;
     margin-left: 10px;
-    border-radius: 50px;
 }
 
 .btn-entrar:hover {
@@ -397,7 +393,7 @@ footer {
 
 .descricao {
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .descricao h1 {
@@ -410,7 +406,6 @@ footer {
     margin-bottom: 10px;
     margin-top: 0;
     padding: 10px;
-    margin-right: 300px;
 }
 
 .container {
