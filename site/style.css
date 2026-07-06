@@ -44,7 +44,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #809859;
+    color: #3c4c22;
 
 }
 
@@ -64,6 +64,7 @@ nav {
     gap: 6px;
     transform: background .2s, transform .15s;
     margin-left: 10px;
+    border-radius: 30px;
 }
 
 .btn-entrar:hover {
@@ -271,19 +272,23 @@ footer {
 .descricao {
     text-align: center;
     font-size: 40px;
+    color: #2a5a28;
 }
 
 .descricao h1 {
-    color: #5519ee;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-family: "Pinyon Script", cursive;
+    color: #336832;
+
 }
 
 .descricao p {
-    font-size: 29px;
+    font-size: 25px;
     text-align: left;
     margin-bottom: 10px;
     margin-top: 0;
-    padding: 10px;
+    padding: 0px;
+    margin-right: 120px;
+
 }
 
 .container {
@@ -308,6 +313,7 @@ footer {
 .container img {
     border-radius: 500px;
     max-width: 150px;
+    margin-bottom: 20px;
 }
 
 .cardapio-title {
