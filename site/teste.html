@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>booksaurora</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <div class="nav-logo">
-            <img src="" alt="">
+            <img src="imagens/ChatGPT Image 2 de jul. de 2026, 17_33_16.png" alt="" style="width: 80px; height: auto;">
         </div>
         <ul class="nav-links">
-          <li><a href="">Home</a></li>
-           <li><a href="">livros</a></li> 
-            <li><a href="sobrenos.html">sobre nós</a></li> 
+            <li><a href="teste.html">Home</a></li>
+            <li><a href="#cardapio">livros</a></li>
+            <li><a href="">biografia</a></li>
         </ul>
         <div class="nav-actions">
+
             <button class="btn-entrar">
-                Entrar no carrinho
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                login
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
             </button>
-        </div>       
+        </div>
     </nav>
 
     <div class="hero">
@@ -29,26 +34,113 @@
             <div class="hero-text">
                 <h1 class="hero-title">
                     Books <br>
-                    <span class="alegre">Aurora</span> 
+                    <span class="alegre">Aurora</span>
                 </h1>
             </div>
-                  
+
         </div>
         <div class="hero-banner">
             <img src="imagens/Luna Avisa on Behance.jpg" alt="">
             <div class="hero-banner-content">
-             
+
                 <button class="btn-contato">
-                   adega de livros digitais
+                    adega de livros digitais
                 </button>
             </div>
         </div>
     </div>
-        <footer>
-        <div class="footer-logo">
-            <img src="" alt="" >
+    <div class="Rosalia">
+        <h2 class="cai9"><i>As Flores da Idade Modernar</i></h2>
+        <br>
+        <br>
+        <p class="p10">é um diário fictício narrado por Rosália, uma jovem observadora que vive durante a Idade Moderna.
+            Por meio de seus relatos, ela registra as grandes transformações de sua época, como o Renascimento, as
+            Grandes Navegações, a invenção da imprensa e as mudanças religiosas que marcaram a sociedade.
+
+            Ao mesmo tempo em que descreve os avanços do conhecimento e da ciência, Rosália também reflete sobre os
+            desafios enfrentados pelas mulheres, que tinham poucas oportunidades de participar da vida intelectual e
+            política. Suas palavras revelam sensibilidade, curiosidade e esperança, usando as rosas como símbolo de
+            crescimento, perseverança e renovação.
+
+            Embora seja uma obra fictícia, o diário foi inspirado em acontecimentos históricos reais, aproximando o
+            leitor do cotidiano da Idade Moderna por meio de uma narrativa pessoal e emocionante. Dessa forma, a
+            história une imaginação e fatos históricos para mostrar como as mudanças desse período influenciaram a vida
+            das pessoas e ajudaram a construir o mundo moderno.</p>
+            <br>
+            <br>
+            <i><h4>escrito por roseta garden</h4></i>
+    </div>
+    <div class="cardapio" id="cardapio">
+        <h2 class="cardapio-title">cardápio</h2>
+        <div class="carousel-wrapper">
+            <div class="carousel-track-outer">
+                <div class="carousel-track" id="carouselTrack">
+                    <!--Cards-->
+                    <div class="card">
+                        <div class="card-img-placeholder">
+                            <img src="imagens/livros/joana d'arc.jpg" alt=""
+                                style="width: 100%;height:100%;object-fit:cover;">
+                        </div>
+                        <div class="card-info">
+                            <h3>Joana D'arc</h3>
+                        </div>
+                    </div>
+
+                    <div class="card featured">
+                        <div class="card-img-placeholder">
+                            <img src="imagens/livros/Resenha_ Floriografia - A Linguagem Secreta das Flores, de Jessica Roux.jpg"
+                                alt="" style="width: 100%;height:100%;object-fit:cover;">
+                        </div>
+                        <div class="card-info">
+                            <h3>Floriografia</h3>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-placeholder">
+                            <img src="imagens/livros/Princesas Quase Esquecidas.jpg" alt=""
+                                style="width: 100%;height:100%;object-fit:cover;">
+                        </div>
+                        <div class="card-info">
+                            <h3>Princesas quase esquecidas</h3>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-placeholder">
+                            <img src="imagens/livros/flores que crescem na sombra.jpg" alt=""
+                                style="width: 100%;height:100%;object-fit:cover;">
+                        </div>
+                        <div class="card-info">
+                            <h3>Flores que crescem na sombra</h3>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-img-placeholder">
+                            <img src="imagens/livros/a pequena sereia.jpg" alt=""
+                                style="width: 100%;height:100%;object-fit:cover;">
+                        </div>
+                        <div class="card-info">
+                            <h3>A pequena sereia</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prevBtn" disabled>&#8592;</button>
+                <div class="carousel-dots" id="carouselDots"></div>
+                <button class="carousel-btn" id="nextBtn">&#8594;</button>
+            </div>
         </div>
-        <span class="footer-copy">&copy; 2026 BooksAurora todos os direitos reservados</span>
+    </div>
+
+    <footer>
+        <div class="footer-logo">
+            <img src="imagens/ChatGPT Image 2 de jul. de 2026, 17_33_16.png" alt="" style="width: 80px; height: auto;">
+        </div>
+        <span class="footer-copy">copy; 2026 BooksAurora todos os direitos reservados</span>
         <div class="footer-socials">
             <a href=""><img src="" alt=""><svg xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 640 640"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
@@ -67,3 +159,46 @@
                 </svg> </a>
         </div>
     </footer>
+
+    <script>
+        const track = document.getElementById('carouselTrack');
+        const prevBtn = document.getElementById('prevBtn')
+        const nextBtn = document.getElementById('nextBtn')
+        const dotwrap = document.getElementById('carouselDots')
+        const cards = track.querySelectorAll('.card')
+        const visible = () => window.innerWidth < 768 ? 1 : 3
+
+        let current = 0
+        const total = () => cards.length - visible() + 1
+
+        function buildDots() {
+            dotwrap.innerHTML = ' '
+            for (let i = 0; i < total(); i++) {
+                const d = document.createElement('span')
+                d.className = 'dot' + (i === current ? 'active' : '')
+                d.addEventListener('click', () => goTo(i))
+                dotwrap.appendChild(d)
+            }
+        }
+        function goTo(idx) {
+            current = Math.max(0, Math.min(idx, total() - 1))
+            const cardWidth = cards[0].offsetWidth + 20
+
+            track.style.transform = `translateX(-${current * cardWidth}px)`
+            prevBtn.disabled = current === 0
+            nextBtn.disabled = current >= total() - 1
+            dotwrap.querySelectorAll('.dot').forEach((d, i) =>
+                d.classList.toggle('active', i === current)
+            )
+        }
+
+        prevBtn.addEventListener('click', () => goTo(current - 1))
+        nextBtn.addEventListener('click', () => goTo(current + 1))
+
+        buildDots()
+        Window.addEventListener('resize', () => {
+            buildDots()
+        })
+        goTo(0)
+
+    </script>
