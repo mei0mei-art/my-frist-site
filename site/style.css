@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Julee&family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,7 +8,7 @@
 
 body {
     background-color: #f0eccd;
-    color: #2e5126;
+    color: #3f9445;
     overflow-x: hidden;
 }
 
@@ -19,7 +18,7 @@ nav {
     justify-content: space-between;
     padding: 18px 48px;
 
-    background-color: #809859;
+    background-color:#809859;
     top: 0;
     border-bottom: 2px solid rgba(57, 133, 64, 0.07);
 }
@@ -28,6 +27,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 6px;
+ 
 }
 
 .nav-links {
@@ -40,12 +40,14 @@ nav {
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    color: #357133
+    color: #357133;
+    font-size: 29px;
+   
 }
 
 .nav-links a:hover {
-    color: #3c4c22;
-
+    color: #4a5b2e;
+  
 }
 
 .nav-actions {
@@ -73,8 +75,8 @@ nav {
 }
 
 .btn-entrar svg {
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
 }
 
 .hero {
@@ -133,26 +135,11 @@ nav {
     font-size: 12px;
 }
 
-.hero-menu-item:hover {
-    background-color: #ede8ff;
-}
 
-.hero-menu-item svg {
-    width: 16px;
-    height: 16px;
-    flex-shrink: 0;
-}
-
-.hero-menu-item.active {
-    color: #804d4d;
-    text-transform: uppercase;
-    font-weight: bold;
-    background-color: #6c2bff;
-}
 
 .hero-banner {
     position: relative;
-    border-radius: 28px;
+    border-radius: 8px;
     min-height: 300px;
     overflow: hidden;
 }
@@ -193,7 +180,7 @@ nav {
     background-color: #2a5a28;
     color: white;
     border: none;
-    border-radius: 50px;
+    border-radius: 20px;
     padding: 8px 28px 8px 8px;
     font-weight: bold;
     cursor: pointer;
@@ -270,60 +257,58 @@ footer {
 }
 
 .descricao {
-    text-align: center;
-    font-size: 40px;
-    color: #2a5a28;
+    font-size: 26px;
 }
 
 .descricao h1 {
-      font-family: "Pinyon Script", cursive;
-    color: #336832;
-
+    color: #5a9548;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
-
-.descricao p {
-    font-size: 25px;
+.descricao p{
+    font-size: 21px;
     text-align: left;
     margin-bottom: 10px;
     margin-top: 0;
-    padding: 0px;
-    margin-right: 120px;
-
+    padding: 10px;
+    margin-left: 50px;
 }
 
 .container {
     display: flex;
     align-items: center;
-    gap: 13px;
-    margin-left: 30px;
-
-
+   gap: 13px;
+   margin-left: 30px;
+  
+ 
 }
-
 .card06 h3 {
-    margin-bottom: 10px;
-    /* Controla o espaço logo abaixo do h3 */
+  margin-bottom: 10px; /* Controla o espaço logo abaixo do h3 */
 }
 
 .card06 p {
-    margin-top: 0;
-    /* Remove a margem padrão superior do parágrafo */
+  margin-top: 0; /* Remove a margem padrão superior do parágrafo */
 }
 
 .container img {
     border-radius: 500px;
     max-width: 150px;
-    margin-bottom: 20px;
 }
 
-.cardapio-title {
-    font-family: sans-serif;
+
+
+.livro {
+    padding: 80px 48px 60px;
+}
+
+.livro-title {
+    font-family: "Carattere", cursive;
     font-weight: bold;
-    font-size: 46px;
+    font-size: 36px;
     text-align: center;
     margin-bottom: 48px;
     letter-spacing: -1px;
-    color: #2a5a28;
+    color: #809859;
 }
 
 .carousel-wrapper {
@@ -366,36 +351,30 @@ footer {
     text-transform: uppercase;
     color: #f8f7f9;
     inset: 0;
-
+   
 }
 
 .card .featured .card-img-placeholder {
     background: linear-gradient(160deg, #a78bfa 0%, #e879f9 100%);
+ 
 }
 
 .card-info {
     position: relative;
     background: linear-gradient(to top rgba(20, 10, 40, 0.82) 0%, transparent 100%);
     padding: 20px 18px 18px;
-    color: #fff;
+    color: #19173d;
 }
 
 .card-info h3 {
     font-family: sans-serif;
     margin-bottom: 6px;
 }
-
-.card-info p {
-    color: white;
-    line-height: 1.5;
-    margin-bottom: 12px;
-}
-
 .card-tag {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    color: white;
+    color: rgb(161, 195, 123);
 }
 .carousel-controls {
     display: flex;
@@ -409,8 +388,8 @@ footer {
     height: 38px;
     border-radius: 50%;
     border: none;
-    background-color: #357133;
-    color: white;
+    background-color: #2a5a28;
+    color: rgb(54, 158, 70);
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -420,7 +399,7 @@ footer {
 }
 
 .carousel-btn:hover {
-    background-color: #24105c;
+    background-color: #768b52;
     transform: scale(1.08);
 }
 
@@ -430,18 +409,20 @@ footer {
     align-items: center;
 }
 
-.cai9 {
+.diario-de-rosalia{
+      font-family: "Carattere", cursive;
+    color: #5a9548;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-size: 39px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-family: "Pinyon Script", cursive;
-}
+     margin-top: 10px;
 
-.p10 {
+}
+.bio{
+      font-family: "Carattere", cursive;
+       font-size: 37px;
     text-align: left;
-    font-size: 28px;
-    font-family: "Pinyon Script", cursive;
-    color: #3f8a3d;
-    margin-right: 60px;
+    margin-bottom: 0;
+    margin-top: 10px;
     padding: 10px;
+    margin-left: 50px;
 }
